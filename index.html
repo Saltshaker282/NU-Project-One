@@ -25,47 +25,61 @@
     <!-- We want an input field at the top of the jumbotron for specific input
     -create a jumbotron at the top with an input field-based on location- by state 
     -using keywords, the search will then interact with a api/array- exact information to be determined
-    -this information is then displayed back to the user in a card?
+    -JS this information is then displayed back to the user in a card?
     -the header will likely remain consistent on both versions-->
 </head>
 
 <body>
+<!-- haha i was here -->
+        <header>
+                <!--Navigation Bar-->
+                 
+  
+                        <nav class="green darken-4" role="navigation">
+                              <div class="nav-wrapper container">
+                                <a id="logo-container" href="#" class="brand-logo">Logo</a>
+                                <ul class="right hide-on-med-and-down">
+                                      <li class="active"><a href="index.html">Home</a></li>
+                                      <a href="about.html">About</a></li>
+                                </ul>
+                          
+                                <ul id="nav-mobile" class="sidenav">
+                                      <li class= "active"><a href="index.html">Home</a></li>
+                                      <a href="about.html">About</a></li>
+                                </ul>
+                                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                              </div>
+                            </nav>
+      
+      
+      
+      
+          </header>
 
-    <header>
-        <!--Navigation Bar-->
-
-
-        <nav class="green darken-4" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about.html">About</a></li>
-                </ul>
-
-                <ul id="nav-mobile" class="sidenav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about.html">About</a></li>
-                </ul>
-                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            </div>
-        </nav>
-
-
-
-
-    </header>
-
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-
-                <div class="row center">
-                    <h1 class="header center white-text text-lighten-2">Meet The Team</h1>
-
+          <div id="index-banner" class="parallax-container">
+                <div class="section no-pad-bot">
+                  <div class="container">
                     <br><br>
+                    
+                    <div class="row center">
+                            <h1 class="header center white-text text-lighten-2">Meet The Team</h1>
+    
+                    <br><br>
+            <!-- form goes here -->
 
+            <div class="input-field col s12" id= "selectForm">
+                    <select>
+                      <option value="" disabled selected>Choose your option</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                    <label>Materialize Select</label>
+                  </div>
+                
+                  </select>
+
+                  </div>
                 </div>
             </div>
             <div class="parallax"><img src="img/slide_2.jpg" alt="Unsplashed background img 1"></div>
