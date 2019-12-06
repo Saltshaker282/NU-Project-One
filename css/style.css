@@ -4,12 +4,12 @@ body {
 
 h1 {
     text-shadow: 2px 2px 4px #000000;
-    font-size: 5.2rem;w
+    font-size: 5.2rem;
 }
+
 .mt75 {
     margin-top: 75px;
 }
-
 
 
 .img-responsive {
@@ -35,4 +35,7 @@ h1 {
     color:#1b5e20;
 }
 
+#selectForm {
+    background-color: white;
+}
 
