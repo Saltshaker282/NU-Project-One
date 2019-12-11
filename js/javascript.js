@@ -1,3 +1,13 @@
+//Shoehorning Buttons
+$("#catfact").click(function(event){
+    $.ajax({
+        method: "GET",
+        url: "https://catfact.ninja/fact"
+    }).then(function(response){
+        $("#catfact").text(response.fact)
+    })
+})
+
 //All this code needs to be based on a select event
 $("#selectForm").change(function(event) {
     //Clear the search area
