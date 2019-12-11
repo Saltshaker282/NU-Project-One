@@ -2,7 +2,7 @@
 $("#catfact").click(function(event){
     $.ajax({
         method: "GET",
-        url: "https://catfact.ninja/fact"
+        url: "https://catfact.ninja/fact?max_length=50"
     }).then(function(response){
         $("#catfact").text(response.fact)
     })
