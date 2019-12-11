@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #fdd835;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 5.2rem;
+    font-family: 'Arvo', serif;
+
+}
+
+.mt75 {
+    margin-top: 75px;
+}
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.img-responsive {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.profile {
+    display: inline-block;
+    padding: 25px;
+    margin-bottom: 25px;
+
+}
+
+.profile p {
+    display: inline-block;
+}
+
+.profile h3 {
+    color:#1b5e20;
+}
+
+.animal-info {
+    display: inline-block;
+    padding: 10px !important;
+}
+
+.information {
+    display: block;
+}
+
+#selectForm {
+    background-color: white;
+}
+
+#catfact {
+    width: 100%;
+    height: 10px; 
+  border: green solid 3ps;
+
+}
+
+#searchresults {
+    font-size: 12px;
+}
+
