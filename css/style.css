@@ -61,3 +61,7 @@ h1 {
 #searchresults {
     font-size: 12px;
 }
+
+#catfact {
+    border: green solid 3ps;
+}
