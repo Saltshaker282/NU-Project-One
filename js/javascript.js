@@ -1,3 +1,10 @@
+$(document).ready(function(){
+
+
+//Jquery UI Stuff
+$( document ).click(function() {
+    $( "#logo-container" ).toggle( "explode" );
+  });
 //Shoehorning Buttons
 $("#catfact").click(function(event){
     $.ajax({
@@ -95,6 +102,7 @@ $("#selectForm").change(function(event) {
                 newCard[0].children[0].children[3].textContent = nativeStatus
                 // newCard[0].children[0].children[4].textContent = wikiLink
                 newCard[0].children[1].children[0].setAttribute("src", taxonImageURL)
+                newCard[0].children[1].children[0].setAttribute("id", "animalimage")
                 targetEl.append(newCard)
                 if (indexCounter%2 === 0) {
                     var columnDiv = $("<div>").addClass("col m2").attr("id", "spacer")
@@ -107,3 +115,4 @@ $("#selectForm").change(function(event) {
 
 
 
+})
