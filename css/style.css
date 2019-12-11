@@ -17,13 +17,6 @@ h1 {
     margin-bottom: 25px;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    z-index: 10;
-}
-
-
 .img-responsive {
     display: inline-block;
     max-width: 100%;
